@@ -3,8 +3,10 @@
 </script>
 
 <template>
-    <div id="square">
-        
+    <div v-for="square in 3" :key="square">
+        <div id="square">
+            
+        </div>
     </div>
 </template>
 

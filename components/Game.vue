@@ -1,5 +1,9 @@
 <script lang="ts">
+import state from "@/models/BoardState.vue";
+import wins from "@/models/BoardState.vue";
 
+console.log(state); // 111111111 = -1
+console.log(wins); // Arrray(8)
 </script>
 
 <template>
@@ -7,9 +11,8 @@
         <h1>TicTacToe</h1>
         <div id="game">
             <Board />
-            <Board />
-            <Board />
         </div>
+        <button onclick="">game start</button> 
     </div>
 </template>
 
@@ -28,5 +31,12 @@
 }
 h1 {
     text-align: center;
+}
+button {
+    position: absolute;
+    top: 90%;
+    left: 36%;
+    margin: 0 auto;
+    border-radius: 10px;
 }
 </style>
