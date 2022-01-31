@@ -1,12 +1,22 @@
 <script lang="ts">
+export default {
+    data() {
+        return {
+            components: {
+                setState: 'setStates'
+            },
+            props: {
+                state : null,
+            }
+        }
+    },
+}
 
 </script>
 
 <template>
-    <div v-for="square in 3" :key="square">
-        <div id="square">
-            
-        </div>
+    <div id="square">
+
     </div>
 </template>
 

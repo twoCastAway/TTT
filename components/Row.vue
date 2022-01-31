@@ -1,11 +1,6 @@
 <template>
-    <div id="row">
+    <div id="row" v-for="square in 3" :key="square">
         <Square />
     </div>
 </template>
 
-<style>
-#row {
-    display: flex;
-}
-</style>
