@@ -1,27 +1,13 @@
 <script lang="ts">
-const board_states = {
-                empty: 0b000000000,
-                fill: 0b111111111,
-                wins: [
-                    0b111000000,
-                    0b000111000,
-                    0b000000111,
-                    0b100100100,
-                    0b010010010,
-                    0b001001001,
-                    0b100010001,
-                    0b001010100
-                ],
-            };
-
-console.log(~board_states.wins[2]);
+import BoardState from "@/models/BoardState.vue";
 </script>
 
 <template>
     <div id="wrapper">
         <h1>TicTacToe</h1>
+        <!-- <BoardState  /> -->
         <div id="game">
-            <Board />
+            <!-- <Board /> -->
         </div>
         <button onclick="reset_board">game start</button> 
     </div>

@@ -1,22 +1,10 @@
 <script lang="ts">
-export default {
-    data() {
-        return {
-            components: {
-                setState: 'setStates'
-            },
-            props: {
-                state : null,
-            }
-        }
-    },
-}
 
 </script>
 
 <template>
     <div id="square">
-
+        {{  }}
     </div>
 </template>
 
