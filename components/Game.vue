@@ -1,13 +1,12 @@
 <script lang="ts">
-import BoardState from "@/models/BoardState.vue";
+
 </script>
 
 <template>
     <div id="wrapper">
         <h1>TicTacToe</h1>
-        <!-- <BoardState  /> -->
         <div id="game">
-            <!-- <Board /> -->
+            <Board />
         </div>
         <button onclick="reset_board">game start</button> 
     </div>
