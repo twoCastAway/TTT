@@ -13,9 +13,9 @@ export default {
 </script>
 
 <template>
-    <div class="board" v-for="(row, rowID) in squares" :key="rowID">
-        <div class="square" v-for="(col, colID) in squares" :key="colID">
-            {{ row[colID] }}
+    <div class="board" v-for="(col, colID) in squares" :key="colID">
+        <div class="square" v-for="(row, rowID) in squares" :key="rowID">
+            {{ col[rowID] }}
         </div>
     </div>
 </template>
