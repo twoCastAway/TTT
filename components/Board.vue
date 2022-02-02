@@ -19,15 +19,3 @@ export default {
         </div>
     </div>
 </template>
-
-<style>
-.board {
-    display: flex;
-}
-.square {
-    width: 64px;
-    height: 64px;
-    border: 2px solid black;
-    text-align: center;
-}
-</style>

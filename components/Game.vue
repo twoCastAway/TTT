@@ -35,4 +35,13 @@ button {
     margin: 0 auto;
     border-radius: 10px;
 }
+.board {
+    display: flex;
+}
+.square {
+    width: 64px;
+    height: 64px;
+    border: 2px solid black;
+    text-align: center;
+}
 </style>
